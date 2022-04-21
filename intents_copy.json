@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Hi how is it going", "Hello", "Hey", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, ask me a question"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "bye", "Have a Good day"],
+         "responses": ["bye", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "eiffel",
+         "patterns": ["where is the eiffel tower", "where is the Eiffel Tower located", "where's the eiffel tower", "eiffel?", "where is the tall French building"],
+         "responses": ["The Eiffel Tower is in France", "The Eiffel Tower is in Paris, France", "it's in Paris"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["I have no name", "I'm just a computer program", "I don't have a name I am just a computer program"],
+         "context_set": ""
+        },
+        {"tag": "capital",
+         "patterns": ["What is the capital of New Jersey?", "What's the capital of New Jersey", "what dis the capital of nj?"],
+         "responses": ["The capital of New Jersey is Trenton", "It's Trenton"],
+         "context_set": ""
+        },
+        {"tag": "president",
+         "patterns": ["where does the president live?", "where is the president's home", "what is the president's home?"],
+         "responses": ["The White House", "the president lives in the White House"],
+         "context_set": ""
+        }
+   ]
+}
